@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Teste</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="wColorPicker.js"></script>
+    <link rel="Stylesheet" type="text/css" href="wColorPicker.css" />
+</head>
+<body>
+    <input id="wColorPicker_input1" type="text"/>
+    <div id="wColorPicker1" class="hoverBox"></div>
+    <script type="text/javascript">
+        $("#wColorPicker1").wColorPicker({
+            initColor: '#FF00FF',
+            mode: 'hover',
+            effect: 'fade',
+            theme: 'cream',
+            onSelect: function(color){
+                $("#wColorPicker_input1").val(color);
+            },
+            onMouseover: function(color){
+                $("#wColorPicker_input1").val(color);
+            },
+            onMouseout: function(color){
+                $("#wColorPicker_input1").val(color);
+            }
+        });
+    </script>
+</body>
+</html>
