@@ -1,6 +1,6 @@
 {
-    "name": "jorge/cakephp-skeleton",
-    "description": "CakePHP Skeleton APP",
+    "name": "jorge/cakephp-skeleton-systems",
+    "description": "CakePHP Skeleton APP for Systems",
     "type": "project",
     "license": "MIT",
     "require": {
